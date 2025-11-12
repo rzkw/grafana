@@ -1,4 +1,8 @@
-<img src="/screenshots/Linux node _ overview-1762941418040.png" height="400">
+<p align="center">
+    <img src="/screenshots/Linux node _ overview-1762941418040.png" alt="Dashboard Overview on Grafana Cloud" width="600">
+    <br>
+     <em>Figure 1: Main dashboard showing CPU, memory, and disk metrics</em>
+</p>
 
 # Overview
 This repository documents a monitoring implementation for a bare-metal Ubuntu Linux server using Grafana Alloy to collect system metrics and send them to Grafana Cloud for visualization and analysis.
