@@ -11,7 +11,7 @@ This repository documents a monitoring implementation for a bare-metal Ubuntu Li
 • Server OS: Ubuntu Server 25.10 LTS \
 • Monitoring Agent: Grafana Alloy \
 • Cloud Platform: Grafana Cloud \
-• Deployment Type: Bare metal on Macbook Air M1 (no containers) \
+• Deployment Type: Bare metal \
 • Installation Method: Official script from Grafana Cloud
 
 # What This Does
