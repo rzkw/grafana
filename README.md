@@ -1,4 +1,4 @@
-<p align="center">
+<p align="center">git 
     <img src="/screenshots/Linux node _ overview-1762941418040.png" alt="Dashboard Overview on Grafana Cloud" width="600">
     <br>
      <em>Figure 1: Main dashboard showing CPU, memory, and disk metrics</em>
