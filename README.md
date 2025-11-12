@@ -1,7 +1,7 @@
-<p align="center">git 
+<p align="center">
     <img src="/screenshots/Linux node _ overview-1762941418040.png" alt="Dashboard Overview on Grafana Cloud" width="600">
     <br>
-     <em>Figure 1: Main dashboard showing CPU, memory, and disk metrics</em>
+     <em>Main dashboard showing CPU, memory, and disk metrics</em>
 </p>
 
 # Overview
@@ -39,15 +39,7 @@ This setup tracks the four essential health indicators of your Linux server:
     - Monitors bandwidth usage
     - Detects unusual traffic patterns
 
-<!-- ┌─────────────────┐         ┌──────────────┐         ┌────────────────┐
-│  Linux Server   │         │   Grafana    │         │    Grafana     │
-│                 │         │    Alloy     │         │     Cloud      │
-│  - Ubuntu 25.10 │────────▶│              │────────▶│                │
-│  - Services     │ Metrics │  Collector   │  HTTPS  │  - Storage     │
-│  - Processes    │         │  & Sender    │         │  - Dashboards  │
-└─────────────────┘         └──────────────┘         └────────────────┘ -->
-
-<!-- ### Simple explanation:
+### Simple explanation:
 
 Your Ubuntu server generates performance data constantly
 Grafana Alloy collects this data every few seconds
@@ -100,7 +92,7 @@ You should see active (running) in green text.
 7. Test your connection works by the 'Test connection' button
 
 
-## Key Files
+## Key Files/Directories
 
 - README.md: You're reading it! Start here.
 - config/config.alloy.example: Template configuration (credentials removed)
