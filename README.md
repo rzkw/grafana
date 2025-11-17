@@ -41,11 +41,10 @@ This setup tracks the four essential health indicators of your Linux server:
 
 ### Simple explanation:
 
-Your Ubuntu server generates performance data constantly
-Grafana Alloy collects this data every few seconds
-Alloy securely sends the data to Grafana Cloud over the internet
-Grafana Cloud stores the data and creates visual dashboards
-You can view charts and graphs in your web browser anytime -->
+1. Your Ubuntu server generates performance data constantly
+2. Grafana Alloy collects this data every few seconds
+3. Alloy securely sends the data to Grafana Cloud over the internet
+4. Grafana Cloud stores the data and creates visual dashboards
 
 ### Prerequisites
 Before starting, you need:
@@ -66,12 +65,9 @@ Before starting, you need:
 #### 2: Install Grafana Alloy
 
 1. Select your platform and architecture - I chose Debian on an Arm64
-
 2. Click the 'Run Grafana Alloy' button to generate an API token
 3. On your server: copy the given command to install and run Grafana Alloy as a systemd service. 
-
 4. Use the default 'Simple set-up' under 'Make configuration selections'
-
 5. Open the Alloy configuration file:
 
 ```
@@ -109,7 +105,7 @@ You should see active (running) in green text.
 
 
 ## Contributing
-This is a personal/team documentation repository. If you and want to suggest improvements:
+This is a personal/team documentation repository. If you'd like to suggest improvements:
 
 1. Create a branch with your changes
 2. Submit a pull request with a clear description
